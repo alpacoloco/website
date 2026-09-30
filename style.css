@@ -1,0 +1,35 @@
+.site-header,
+.hero,
+.page-banner {
+  background: #5b2bd9;
+}
+:root{--violet:#5b2bd9;--violet-dark:#2a0f6b;--coral:#ff6f61;--ink:#22183f;--soft:#f6f3ff}
+body{font-family:'Outfit',system-ui,sans-serif;color:var(--ink);background:#fff;display:flex;flex-direction:column;min-height:100vh}
+main{flex:1}
+h1,h2,h3{font-weight:700;line-height:1.2}
+a{color:var(--violet)}
+.site-header{background:linear-gradient(135deg,var(--violet),var(--violet))}
+.navbar-brand{font-weight:700;font-size:1.35rem;display:flex;align-items:center;gap:.5rem}
+.logo-mark{display:inline-grid;place-items:center;width:2rem;height:2rem;border-radius:50%;border:2px solid var(--coral);color:var(--coral)}
+.navbar .nav-link{color:#fff;font-weight:500;padding:.5rem 1rem;border-radius:2rem}
+.navbar .nav-link:hover{background:rgba(255,255,255,.15)}
+.navbar .nav-link.active{background:var(--coral);color:#fff}
+.hero,.page-banner{background:linear-gradient(135deg,var(--violet-dark),var(--violet-dark) 100%,#8a55f0);color:#fff}
+.hero{padding:4rem 0 6rem;border-radius:0 0 50% 50%/0 0 3rem 3rem}
+.hero h1{font-size:clamp(2rem,4.5vw,3.2rem)}
+.hero .lead{max-width:34rem;opacity:.9}
+.hero-hello .badge{background:#fff;color:var(--ink);font-size:1rem;padding:.6rem 1rem}
+.avatar{width:min(320px,80%);border:8px solid rgba(255,255,255,.35);border-radius:50%;box-shadow:0 0 0 18px rgba(255,255,255,.1)}
+.page-banner{padding:3rem 0}
+.page-banner h1{font-size:2.4rem}
+.btn-coral{background:var(--coral);border-color:var(--coral);color:#fff;border-radius:2rem;padding-inline:1.6rem}
+.btn-coral:hover,.btn-coral:focus{background:#e85a4c;border-color:#e85a4c;color:#fff}
+.btn-outline-light{border-radius:2rem}
+.card-soft{background:var(--soft);border-radius:1rem;padding:1.5rem}
+.thumb{height:130px;border-radius:.75rem;margin-bottom:1rem;background:linear-gradient(135deg,var(--violet),var(--violet));color:#fff;display:grid;place-items:center;font-size:3rem;font-weight:700}
+.legal{max-width:46rem}
+.site-footer{background:var(--violet-dark);color:#d9ccff;padding:1.5rem 0}
+.footer-link{color:#fff;text-decoration:none;padding:.25rem .5rem;border-radius:.5rem}
+.footer-link:hover{text-decoration:underline}
+.footer-link.active{background:var(--coral)}
+:focus-visible{outline:3px solid var(--coral);outline-offset:2px}
